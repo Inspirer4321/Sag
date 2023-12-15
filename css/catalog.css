@@ -1,0 +1,166 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    max-width: 768px;
+    background-color: #102759;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 15px;
+    background-color: #0f2658;
+    box-shadow: 0 0 16px #009de20a;
+}
+
+header .back {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+}
+
+.text {
+    color: #fff;
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+div {
+    display: block;
+}
+
+h3{
+    color: #fff;
+}
+
+.inner:first-child {
+    margin-top: 25px;
+}
+
+.title, .catalog-list h3, body {
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.inner>div {
+    padding: 7px 10px;
+    background-color: #0e3079;
+    border-radius: 15px;
+    box-shadow: 0 0 16px #009de20a;
+}
+.catalogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.catalog-list {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    height: 180px;
+    border: 1px solid white;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.title, .catalog-list h3, body {
+    font-family: Montserrat,sans-serif;
+}
+
+.catalog-list h3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.catalog-list img {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    opacity: .5;
+    }
+    
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    }
+
+footer p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    }
+    
+footer .social {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+    }
+    
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #fff;
+    }
+
+u {
+    color: #fff;
+    text-decoration: underline;
+    }
+    
+.gmail {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    
+.social svg {
+    font-size: 25px;
+    margin: 20px;
+    }        

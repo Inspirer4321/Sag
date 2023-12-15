@@ -1,0 +1,114 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #102759;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 15px;
+    background-color: #0f2658;
+    box-shadow: 0 0 16px #009de20a;
+}
+
+header .back {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+}
+
+.text {   
+    color: #fff;
+    margin: 10px 0;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.text1 {
+    color: #fff;
+    margin: 15px;
+    font-size: 25px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about .inner>div>p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.about .inner p>img {
+    border-radius: 7px;
+    margin: 10px 0;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    }
+    
+footer .social {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+    }
+    
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #fff;
+    }
+
+u {
+    color: #fff;
+    text-decoration: underline;
+    }
+    
+.gmail {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    
+.social svg {
+    font-size: 25px;
+    margin: 20px;
+    }        
